@@ -321,14 +321,14 @@ body {
     margin: 0 auto;
     font-size: 1.2em;
     text-decoration: none;
-    background-image: linear-gradient(rgba(250, 0, 0, 0.5), rgba(107, 39, 0, 0.5));
+    background-image: linear-gradient(#009FFD,#2A2A72);
     transition: 0.3s;
     font-family: "kawashiro";
 }
 
 .donateNow:hover {
     transform: translateY(-3%);
-    background: linear-gradient(rgba(250, 0, 0, 0.7), rgba(107, 39, 0, 0.7));
+    background: linear-gradient(#009FFD,#2A2A72);
     box-shadow: 0 0 0.6em white;
 
 }
@@ -357,7 +357,7 @@ body {
 }
 
 .layer2Bg {
-    background-image: linear-gradient(rgb(105, 14, 14),rgb(56, 9, 9));
+    background-image: linear-gradient(#009FFD,#2A2A72);
     margin-top: 18em;
 }
 
@@ -476,7 +476,7 @@ body {
 }
 
 .layer4Bg {
-    background-image: linear-gradient(rgb(105, 14, 14),rgb(56, 9, 9));
+    background-image: linear-gradient(#009FFD,#2A2A72);
     display: flex;
     justify-content: center;
     align-items: center;
