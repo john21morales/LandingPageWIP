@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "landingPage.css" rel = "stylesheet">
+    <title>John Morales</title>
+    <link rel="icon" href= "resources/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--JS api to make sound-->
+</head>
+
+<body>
+    <div class = "backgroundContainer">
+        <video id = "background" muted autoplay loop>
+            <source src = "resources/background-test.mp4" type = "video/mp4"></src> <!--Blue boy background-->
+        </video>
+
+        <audio id = "backgroundMusic" class = "bgm" src = "resources/redbone-music.mp3" loop></audio>
+    </div>
+
+    <div class = "headerBar">
+        <div class = "leftBarContainer">
+            <a class = "logoContainer" href = ".">
+                <div class = "logoImageContainer">
+                    <img class = "logoImage" src = "resources/favicon.ico">
+                </div>
+                <div class = "john-logo">
+                    John Morales
+                </div>
+            </a>
+            <img id = "audioController" src = "resources/audioControllerOn.png" onclick = "audioController(); imageChange();">
+        </div>
+
+        <div class = "rightBarContainer">
+            <div class = "rightBarStuff">
+                <img class = "separator hamburgerStuff" src = "resources/linkedin.ico">
+                <a class = "characters hamburgerStuff" href = "#">Linkedin</a>
+                <img class = "separator hamburgerStuff" src = "resources/twitter.ico">
+                <a class = "music hamburgerStuff" href = "#">Twitter</a>
+                <img class = "separator hamburgerStuff" src = "resources/github.ico">
+                <a class = "contact hamburgerStuff" href = "#">Github</a>
+            </div>
+            <div class = "menuHamburger"><div class = "menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <div class = "layer1">
+        <div class = "layer1Container">
+            <div class = "layer1Left">
+                <div class = "greetings">
+                    Sup, I'm John
+                </div>
+                <div class = "description">
+                    <p>I recently graduated from UofT with an Hon.Bsc. Statistics Major.</p>
+                    <p>I have a passion for turning raw data into models and visualizations to help make business decisions.</p>
+                </div>
+                <div class = "cv-container">
+                    <a class = "cv" href = "https://john21morales.github.io/cv/">View My CV!</a>
+                </div>
+            </div>
+            <div class = "layer1Right">
+                <img class = "layer1Image" src = "resources/Profile Pic.png">
+                <div class = "layer1Caption">
+                    Insert Caption Here
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer2">
+        <div class = "layer2Bg">
+            <div class = "layer2Content">
+                <div class = "layer2Heading">
+                    My Data Portfolio
+                </div>
+                <div class = "layer2InfoContainer">
+                    <div class = "proj1Container">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><img class = "proj1Image" src = "resources/data-analyst.jpg"></a>
+                        <div class = "proj1Subtext">Project 1</div>
+                    </div>
+                    <div class = "proj2Container">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><img class = "proj2Image" src ="resources/sql-wallpaper.png"></a>
+                        <div class = "proj2Subtext">Project 2</div>
+
+                    </div>
+                    <div class = "proj3Container">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><img class = "proj3Image" src = "resources/data-analyst.jpg"></a>
+                        <div class = "proj3Subtext">Project 3</div>
+                    </div>
+                    <div class = "proj4Container">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><img class = "proj4Image" src = "resources/sql-wallpaper.png"></a>
+                        <div class = "proj4Subtext">Project 4 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer3">
+        <div class = "layer3Text">
+            <div class = "layer3Quote">
+                “Data really powers everything that we do.”
+            </div>
+            <div class = "layer3QuoteFrom">
+                -Jeff Weiner
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer4">
+        <div class = "layer4Bg">
+            <div class = "layer4Content">
+                <div class = "layer4Text">
+                    <div class = "layer4TextHeading">
+                        Currently looking for data analyst or junior developer roles.
+                    </div>
+                    <div class = "layer4TextSubtext">
+                      If you're interested in working with me, or just want to say hi, then feel free to send me a message!
+                    </div>
+                </div>
+                <div class = "layer4ContactContainer">
+                    <a class = "layer4Contact" href = "#">
+                        Contact!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "footerLayer">
+        <div class = "footerLayerBg">
+            <a class = "footerLayerAuthor" href = "https://github.com/john21morales" target = "_blank">
+                Webpage by: John Morales
+            </a>
+        </div>
+    </div>
+
+</body>
+
+<script src = "landingPage.js"></script>
+</html>
